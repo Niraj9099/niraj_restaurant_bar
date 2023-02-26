@@ -1,0 +1,21 @@
+.orderpage{
+    background-color: beige;
+}
+
+form{
+    background-color: rgb(199, 199, 199);
+    border-radius: 20px;
+}
+
+
+.form-label{
+    background-color: transparent;
+}
+
+.details{
+    background-color: transparent;
+}
+
+.details p{
+    font-size: larger;
+}

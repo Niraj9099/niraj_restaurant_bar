@@ -1,0 +1,75 @@
+.nav{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+}
+
+
+
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    text-shadow: 2px 5px 15px rgb(199, 193, 252);
+}
+
+/* .nav-link{
+    color: white;
+} */
+
+/* .nav-link:hover{
+    color: rgb(0, 0, 0);
+} */
+
+/* .navbar-nav{
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: 500;
+} */
+
+/* .carticon{
+    font-size: 20px;
+} */
+
+/* .badge{
+    font-size: 12px;
+} */
+
+/* .Cart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 1% ;
+    margin-right: 2%;
+} */
+
+@media (max-width: 900px){
+    .navbar-brand{
+        margin-left: 0;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .navbar button{
+        size:2cm;
+   
+        border: none;
+        outline: none;
+        border: 1px solid black;
+        
+        
+    }
+
+    .Cart{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 2% ;
+        margin-right: 3%;
+        color: black;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+    
+} 

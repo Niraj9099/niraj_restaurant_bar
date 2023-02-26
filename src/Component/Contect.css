@@ -1,0 +1,23 @@
+
+
+.contect{
+   background-color: rgb(187, 165, 207);
+   overflow-x: hidden;
+}
+
+.contectus {
+   background-color: transparent;
+}
+
+.namehead {
+   font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 2px;
+   font-weight: 800;
+   text-shadow: 2px 1px 15px black;
+   /* font-size: 30px; */
+}
+
+.addres {
+   font-size: 20px;
+}
+

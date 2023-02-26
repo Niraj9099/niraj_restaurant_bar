@@ -1,0 +1,105 @@
+
+.cartpage{
+    background-color: rgb(211, 211, 141);
+    overflow-x: hidden;
+}
+
+
+.btnqty{
+    background-color: bisque;
+}
+
+.tital{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.image img{
+    width: fit-content;
+    height: 100%;
+    border-radius: 15%;
+}
+
+.text h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.text h5{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buton{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    
+}
+.qty{
+    /* background-color: rgb(158, 140, 175); */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+    justify-content: center;
+    width: auto;
+    
+}
+
+
+
+.itemscart{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    box-shadow: 2px 5px 10px black;
+    height: 380px;
+    overflow-y: scroll;
+   
+}
+
+.itemscart::-webkit-scrollbar{
+    display: none;
+  }
+  
+
+.bill{
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 2px 5px 10px black;
+   
+    
+}
+
+.bill-text{
+    font-family:monospace;
+}
+
+.num{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ordernow{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.ordernow:hover{
+    transform: scale(1.08);
+}
+
+@media (max-width: 500px){
+    .image img{
+        width: fit-content;
+        height:100%;
+        border-radius: 15%;
+        margin-bottom: 10px;
+    }
+
+    .removebtn{
+        margin-top: 2px;
+    }
+}
